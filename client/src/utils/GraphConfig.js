@@ -1,0 +1,73 @@
+const GraphConfig = {
+    "automaticRearrangeAfterDropNode": false,
+    "collapsible": false,
+    "directed": false,
+    "focusAnimationDuration": 0.75,
+    "focusZoom": 0.7,
+    "freezeAllDragEvents": false,
+    "height": 500,
+    "highlightDegree": 1,
+    "highlightOpacity": 1,
+    "linkHighlightBehavior": true,
+    "maxZoom": 8,
+    "minZoom": 0.1,
+    "initialZoom": 1.1,
+    "nodeHighlightBehavior": true,
+    "panAndZoom": false,
+    "staticGraph": false,
+    "staticGraphWithDragAndDrop": true,
+    "width": "100%",
+    "d3": {
+        "alphaTarget": 0.05,
+        "gravity": -400,
+        "linkLength": 180,
+        "linkStrength": 1,
+        "disableLinkForce": true
+    },
+    "node": {
+        "color": "#d3d3d3",
+        "fontColor": "black",
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "highlightColor": "SAME",
+        "highlightFontSize": 12,
+        "highlightFontWeight": "bold",
+        "highlightStrokeColor": "blue",
+        "highlightStrokeWidth": "SAME",
+        "labelProperty": "name",
+        "mouseCursor": "pointer",
+        "opacity": 1,
+        "renderLabel": true,
+        "size": {
+            "width": 400,
+            "height": 400
+        },
+        "strokeColor": "none",
+        "strokeWidth": 2,
+        "svg": "",
+        "symbolType": "circle",
+        // "viewGenerator": (node) => <Node node={node} />
+    },
+    "link": {
+        "color": "#d3d3d3",
+        "fontColor": "black",
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "highlightColor": "blue",
+        "highlightFontSize": 8,
+        "highlightFontWeight": "bold",
+        "labelProperty": "label",
+        "mouseCursor": "pointer",
+        "opacity": 1,
+        "renderLabel": true,
+        "semanticStrokeWidth": true,
+        "strokeWidth": 1.5,
+        "markerHeight": 6,
+        "markerWidth": 6,
+        "strokeDasharray": 0,
+        "strokeDashoffset": 0,
+        "strokeLinecap": "butt"
+    }
+};
+
+export default GraphConfig;
